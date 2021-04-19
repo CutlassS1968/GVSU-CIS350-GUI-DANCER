@@ -1,23 +1,15 @@
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
-import java.util.Random;
 /**
  * StickMan Drawing
- * @author - "Donald"
- * @version - 03/30/21
+ * @author - Donald
+ * @version - 04/17/21
  */ 
-public class Drawing extends JPanel implements MouseListener {
-     @Override
-    public void mouseExited(MouseEvent e) {}
-    @Override
-    public void mouseEntered(MouseEvent e) {}
-    @Override
-    public void mouseReleased(MouseEvent e) {}
-    @Override
-    public void mousePressed(MouseEvent e) {}
+public class Drawing extends JPanel {
+
+    int delay = 300; //milliseconds
+    int r = 0;
     
     public static void main(String[] a) {
          JFrame f = new JFrame();
@@ -27,6 +19,19 @@ public class Drawing extends JPanel implements MouseListener {
         f.setVisible(true); 
     }
 
+    ActionListener taskPerformer = new ActionListener(){
+        public void actionPerformed(ActionEvent evt) {
+            ++r;
+            repaint();
+            if(r ==4){
+                r = 0;
+            }
+            time.restart();
+        }
+    };
+
+    Timer time = new Timer(delay, taskPerformer);
+    
     public void paintComponent(Graphics g){
 
         // this statement required
@@ -36,30 +41,28 @@ public class Drawing extends JPanel implements MouseListener {
         setBackground(Color.CYAN);
         // display words
         g.setColor(Color.BLACK);
-        g.drawString("DANCE!", 250, 20);
+        g.drawString("DANCE PARTY!", 250, 20);
         
-        //rando num/
-        Random rnd = new Random();
-        int r = rnd.nextInt(4);
         if(r == 0){
+            setBackground(Color.RED);
             drawDanceA(g);
+            time.start();
         }
         if(r == 1){
+            setBackground(Color.YELLOW);
             drawDanceB(g);
         }
         if(r == 2){
+            setBackground(Color.GREEN);
             drawDanceC(g);
         }
         if(r == 3){
+            setBackground(Color.CYAN);
             drawDanceD(g);
         }
-        //if rand = 0 dance a 1b 2c 3d
-       
-        
-        addMouseListener(this);
 
-    }
     
+    }
     
     public void drawDanceA(Graphics g) {
         g.fillRect( 130,30, 40,40 );      // Draw head
@@ -80,7 +83,8 @@ public class Drawing extends JPanel implements MouseListener {
         g.drawLine( 150,150, 150,80 );     // Draw neck
         g.drawLine( 150,80, 150,193 );    // Draw body
         g.drawLine( 150,130, 250,130 );   // Draw right arm
-        g.drawLine( 250,130, 250,200 );
+        g.drawLine( 250,130, 250,190 );
+
         g.drawLine( 100,130, 40,190 );    // Draw left arm
         g.drawLine( 100,130, 150,130 );
         g.drawLine( 150,190, 95,320 );    // Draw left leg
@@ -117,9 +121,5 @@ public class Drawing extends JPanel implements MouseListener {
         g.drawLine( 205,320, 225,300 );
     }
     
-    
-    public void mouseClicked(MouseEvent e) {
-       repaint();
-        
-    }
+}
 }

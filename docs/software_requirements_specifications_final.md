@@ -40,29 +40,29 @@ The first section of this document will be dedicated to Functional Requirements,
   ### Physics Engine Requirements
   | ID | Physics Engine | 
   | :-------------:| :----------: | 
-  | NFR | There shall be a physics simulation that the user can observe | 
-  | NFR | Objects within the simulation shall be two-dimensional |
-  | NFR | ... |
-  | NFR | ... | 
-  | NFR | ... |
+  | NFR1 | There shall be a physics simulation that the user can observe | 
+  | NFR2 | Objects within the simulation shall be two-dimensional |
+  | NFR3 | ... |
+  | NFR4 | ... | 
+  | NFR5 | ... |
   
   ### User Input Requirements
   | ID | User Input | 
   | :-------------:| :----------: | 
-  | NFR | User shall be able to toggle debug stats. | 
-  | NFR | User shall be able to toggle dancing stick figure |
-  | NFR | ... |
-  | NFR | ... | 
-  | NFR | ... |
+  | NFR6 | User shall be able to toggle debug stats. | 
+  | NFR7 | User shall be able to toggle dancing stick figure |
+  | NFR8 | ... |
+  | NFR9 | ... | 
+  | NFR10 | ... |
   
   ### Graphics Interface Requirements
   | ID | Graphics Interface | 
   | :-------------:| :----------: | 
-  | NFR | Program shall be a GUI | 
-  | NFR | Shapes shall be drawn to the GUI |
-  | NFR | There shall be a menu drop down in the window for the use to toggle aspects of the application |
-  | NFR | Program shall be able to run on any desktop device | 
-  | NFR | ... |
+  | NFR11 | Program shall be a GUI | 
+  | NFR12 | Shapes shall be drawn to the GUI |
+  | NFR13 | There shall be a menu drop down in the window for the use to toggle aspects of the application |
+  | NFR14 | Program shall be able to run on any desktop device | 
+  | NFR15 | ... |
   
   # Software Artifacts
   

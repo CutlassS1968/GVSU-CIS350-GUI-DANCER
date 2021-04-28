@@ -42,8 +42,8 @@ The first section of this document will be dedicated to Functional Requirements,
   | :-------------:| :----------: | 
   | NFR1 | There shall be a physics simulation that the user can observe | 
   | NFR2 | Objects within the simulation shall be two-dimensional |
-  | NFR3 | ... |
-  | NFR4 | ... | 
+  | NFR3 | Object collision shall result in an updated position for the object. |
+  | NFR4 | Shapes shall detect other shapes through rotation. | 
   | NFR5 | ... |
   
   ### User Input Requirements

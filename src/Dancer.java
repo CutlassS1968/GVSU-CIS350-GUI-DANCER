@@ -8,7 +8,7 @@ public class Dancer {
 
     public static void drawDancer(Graphics2D g2D, int r){
         
-        g2D.setColor(Color.WHITE);
+        g2D.setColor(Color.DARK_GRAY);
 
         if(r <= 0){
             drawDanceA(g2D); 

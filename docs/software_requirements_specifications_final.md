@@ -12,18 +12,18 @@ The first section of this document will be dedicated to Functional Requirements,
   | ID | Physics Engine | 
   | :-------------:| :----------: | 
   | FR1 | Shapes shall move with respect to a physics system implemented through a physics engine class and supporting values. | 
-  | FR2 | Shapes shall conform to numerical constraints defined in the main class, and applied to all shapes, such as gravity and drag | 
-  | FR3 | ... | 
+  | FR2 | Shapes shall conform to numerical constraints defined in the main class, and applied to all shapes, such as gravity and drag. | 
+  | FR3 | Shapes shall have collisions with frame boundaries. | 
   | FR4 | ... |
   | FR5 | ... |
   
   ### User Input Requirements
   | ID | User Input | 
   | :-------------:| :----------: |
-  | FR6 | Debug statistics shall be turned on or off via mouse click | 
-  | FR7 | Dancing figure shall be turned on or off via mouse click | 
-  | FR8 | ... | 
-  | FR9 | ... | 
+  | FR6 | Debug statistics shall be turned on or off via mouse click. | 
+  | FR7 | Dancing figure shall be turned on or off via mouse click. | 
+  | FR8 | Frame boundaries shall be changed with the mouse.  | 
+  | FR9 | Program shall stop running when X button clicked via mouse. | 
   | FR10| ... |
   
   ### Graphics Interface Requirements
@@ -31,7 +31,7 @@ The first section of this document will be dedicated to Functional Requirements,
   | :-------------:| :----------: |
   | FR11| Shapes shall be propperly drawn through the use of the 2DGraphics library. | 
   | FR12| Shapes shall be drawn according to their type. | 
-  | FR13| ... | 
+  | FR13| Dancing figure shall automatically loop through dance animations. | 
   | FR14| ... | 
   | FR15| ... |
   
@@ -50,9 +50,9 @@ The first section of this document will be dedicated to Functional Requirements,
   | ID | User Input | 
   | :-------------:| :----------: | 
   | NFR6 | User shall be able to toggle debug stats. | 
-  | NFR7 | User shall be able to toggle dancing stick figure |
-  | NFR8 | ... |
-  | NFR9 | ... | 
+  | NFR7 | User shall be able to toggle dancing stick figure. |
+  | NFR8 | User shall be able to change frame size. |
+  | NFR9 | User shall be able to exit program. | 
   | NFR10 | ... |
   
   ### Graphics Interface Requirements

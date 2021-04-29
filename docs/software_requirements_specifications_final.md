@@ -70,10 +70,10 @@ The first section of this document will be dedicated to Functional Requirements,
   
   ## Artifacts
   
-  [User & Physics Engine](to_some_file.pdf)
+  [User & Physics Engine](https://github.com/CutlassS1968/GVSU-CIS350-GUI-DANCER/blob/master/artifacts/use_case_diagrams/User%20diagram%20(User%20Input%20System%20to%20Physics%20System).pdf)
   
-  [Physics Engine & Graphics Interface](to_some_file.pdf)
+  [User & Graphics Interface](https://github.com/CutlassS1968/GVSU-CIS350-GUI-DANCER/blob/master/artifacts/use_case_diagrams/user_graphics.pdf)
   
-  [User & Graphics Interface](to_some_file.pdf)
+  [Physics Engine & Graphics Interface](https://github.com/CutlassS1968/GVSU-CIS350-GUI-DANCER/blob/master/artifacts/use_case_diagrams/physics_graphics.pdf)
   
-  [Use Case Descriptions](user_graphics.pdf)
+  [Physics Engine & Graphics Interface Descriptions](https://github.com/CutlassS1968/GVSU-CIS350-GUI-DANCER/blob/master/artifacts/use_case_diagrams/physics_graphics_description.pdf)

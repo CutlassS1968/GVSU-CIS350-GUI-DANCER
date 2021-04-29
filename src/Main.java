@@ -27,9 +27,9 @@ public class Main {
 
     public static final int MAX_SPAWN = 20;
     public static final int RATE = 20;
-    public static final int GRAVITY = 0;
+    public static final int GRAVITY = 1000;
     public static final double DRAG = 0.00;
-    public static final double BOUNCE = .99;
+    public static final double BOUNCE = .9;
     public static boolean DRAW_DANCE = true;
     public static boolean DRAW_DEBUG = false;
 

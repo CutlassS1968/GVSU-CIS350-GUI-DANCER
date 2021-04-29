@@ -66,9 +66,9 @@ The first section of this document will be dedicated to Functional Requirements,
   
   # Software Artifacts
   
-  <Describe the purpose of this section>
+  This is a collection of all documents and aftifacts generated for this project.
   
-  ## Artifacts
+  ## Use-Cases
   
   [User & Physics Engine](https://github.com/CutlassS1968/GVSU-CIS350-GUI-DANCER/blob/master/artifacts/use_case_diagrams/User%20diagram%20(User%20Input%20System%20to%20Physics%20System).pdf)
   
@@ -77,3 +77,24 @@ The first section of this document will be dedicated to Functional Requirements,
   [Physics Engine & Graphics Interface](https://github.com/CutlassS1968/GVSU-CIS350-GUI-DANCER/blob/master/artifacts/use_case_diagrams/physics_graphics.pdf)
   
   [Physics Engine & Graphics Interface Descriptions](https://github.com/CutlassS1968/GVSU-CIS350-GUI-DANCER/blob/master/artifacts/use_case_diagrams/physics_graphics_description.pdf)
+  
+  ## Gantt Chart
+  
+  [GUI Dancer Gantt Chart](https://github.com/CutlassS1968/GVSU-CIS350-GUI-DANCER/blob/master/docs/GUI%20Dancer%20Gantt.pdf)
+  
+  ## Old Software Secifications
+  
+  [Software Requirements Specification](https://github.com/CutlassS1968/GVSU-CIS350-GUI-DANCER/blob/master/docs/software_requirements_specification.md)
+  
+  ## Tasks
+  
+  [Previous Tasks](https://github.com/CutlassS1968/GVSU-CIS350-GUI-DANCER/blob/master/docs/tasks.md)
+  
+  ## Proposal
+  
+  [Original Project Proposal](https://github.com/CutlassS1968/GVSU-CIS350-GUI-DANCER/blob/master/docs/proposal-template.md)
+  
+  
+  ## Meetings
+  
+  [All meeting notes over the course of the semester](https://github.com/CutlassS1968/GVSU-CIS350-GUI-DANCER/tree/master/meetings)

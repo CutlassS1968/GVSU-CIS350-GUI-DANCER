@@ -17,4 +17,4 @@ Your choice of IDE (IntelliJ, Eclipse, etc.)
 
 ## Run Instructions
 
-In order to run the program you must first download and install the most recent version of the Java Virtual Machine (or JVM) and any version of Java above Java 11. After installing, you can pick from your choice of IDE (IntelliJ, Eclipse, etc.) and clone this repository into a project. After setting up each module (src, tests, out) you can build the project and run the main method. In order to customize variables within the simulation, you will need to change the config variable at the top of the Main class.
+In order to run the program you must first download and install the most recent version of the JDK 8 and JRE 8. After installing, you can pick from your choice of IDE (IntelliJ, Eclipse, etc.) and clone this repository into a project. After setting up each module (src, tests, out) in the project structure section of your IDE, you can build the project and run the main method. In order to customize variables within the simulation, you will need to change the config variable at the top of the Main class.

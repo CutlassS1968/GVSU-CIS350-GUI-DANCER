@@ -7,13 +7,13 @@ Team members: Evan Johns, Abigail McDonald, Jacquelin Jimenez, and Donald Finn
 
 Our project is a graphical user interface whose function is to make a stick figure move for entertainment purposes. The goal for this project is to have a stick figure move its arms and legs when the user clicks a button on the GUI. We will build this GUI with the Java programming language.
 
-The basic design will be a rectangle GUI with a smaller rectangle inside of it. This smaller rectangle will take up about ⅔ of the GUI frame and have a stick figure person in it. The other third will have 4-6 buttons with various functionalities. The functions of the buttons will be to move the arms and legs of the stick figure. These will also be rectangles but smaller. In order to create this GUI and the stick figure drawing, we plan to import Java libraries, such as Swing, AWT, graphics and draw. 
+The basic design will be a rectangle GUI with a smaller rectangle inside it. This smaller rectangle will take up about ⅔ of the GUI frame and have a stick figure person in it. The other third will have 4-6 buttons with various functionalities. The functions of the buttons will be to move the arms and legs of the stick figure. These will also be rectangles but smaller. In order to create this GUI and the stick figure drawing, we plan to import Java libraries, such as Swing, AWT, graphics and draw. 
 
 The functionality behind the buttons will be broken down into methods that will move a portion of the stick figure, like an arm. At a button press the first method called will be to reset the stick figure to the original position, arms down and legs straight. Once the figure is in the original position, the method for the body part will execute and move the part to a desired position. For example, the button for the right arm would make the right arm go up.
 
 Additional functionality could be added after initial functionality is developed and tested. These additional functions would appear as the body part will move up and down for a duration of time. Another functionality would be the ability to move the body parts with the arrow keys of a keyboard. 
 
-A window with a viewer panel on the left and a control panel on the right. There is a stick 
+A window with a viewer panel on the left, and a control panel on the right. There is a stick 
 figure on the left viewer panel and multiple options to lift the stick figures.
 
 
@@ -34,7 +34,7 @@ Weeks 1 - 3:
 Basic GUI setup with Viewer panel and Control Panels OR another means of controlling (through keybinds)
 
 Weeks 4 - 6:
-Develop rudimentary stick figure physics with basic arm-body and leg-body joints that can be interactable.
+Develop rudimentary stick figure physics with basic arm-body and leg-body joints that can be intractable.
 
 Weeks 7 - 8:
 Incorporating basic Stick Figure control through decided method of interaction

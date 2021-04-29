@@ -29,11 +29,11 @@ The first section of this document will be dedicated to Functional Requirements,
   ### Graphics Interface Requirements
   | ID | Graphics Interface | 
   | :-------------:| :----------: |
-  | FR11| Shapes shall be propperly drawn through the use of the 2DGraphics library. | 
+  | FR11| Shapes shall be properly drawn through the use of the 2DGraphics library. | 
   | FR12| Shapes shall be drawn according to their type. | 
   | FR13| Dancing figure shall automatically loop through dance animations. | 
   | FR14| All Entities that need to be drawn shall be stored in an ArrayList | 
-  | FR15| The main loop shall retreive the user's mouse position and display its coordinates on screen |
+  | FR15| The main loop shall retrieve the user's mouse position and display its coordinates on screen |
   
   ## Non-Functional Requirements
   
@@ -66,7 +66,7 @@ The first section of this document will be dedicated to Functional Requirements,
   
   # Software Artifacts
   
-  This is a collection of all documents and aftifacts generated for this project.
+  This is a collection of all documents and artifacts generated for this project.
   
   ## Use-Cases
   

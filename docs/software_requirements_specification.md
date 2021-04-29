@@ -19,7 +19,7 @@
     1. There shall be a stick figure that user will be able to move
     1. Stick figure shall be two-dimensional
 2. User Input
-    1. User control of the character shall be instantanous between user input and onscreen action
+    1. User control of the character shall be instantaneous between user input and onscreen action
     1. Dance animations shall not be overlapped or cancelled by repeated commands.
 3. Graphics Interface
     1. Program shall be a GUI

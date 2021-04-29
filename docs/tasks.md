@@ -4,7 +4,7 @@ Team Creation and Management:
   * Establish group members and introductions
 
 Project Proposal:
-  * Develop a rudementary idea of the end product
+  * Develop a rudimentary idea of the end product
 
 Research:
   * Investigate methodologies to developing the end product
@@ -28,7 +28,7 @@ Documentation:
   * Document project progress and code
 
 Task Management:
-  * Establish tasks and Gannt Chart
+  * Establish tasks and Gantt Chart
 
 Testing:
   * Write test cases and test project code against them
